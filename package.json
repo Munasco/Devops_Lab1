@@ -3,8 +3,8 @@
   "description": "This is my first app",
   "scripts": {
     "lint": "npx eslint examples/*.js",
-    "style": "prettier --check examples/example2.js",
-    "format": "prettier --write examples/example2.js",
+    "style": "prettier **/*.js",
+    "format": "prettier --write **/*.js",
     "test": "jest",
     "prepare": "husky"
   },
